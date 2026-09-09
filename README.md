@@ -5,6 +5,8 @@ Jednoduché a levné PeeWee vozítko pro Micro:bit. Jedná se o OpenHardware pla
 
 Bez dalších modifikací je vozítko určeno pro programování pomocí MakeCode (Blockly / Static TypeScript) s mikrokontrolérem Micro:bit, lze jej ale snadno adaptovat i na libovolný jiný mikrokontrolér (Arduino, ESP32 atd.).
 
+![Foto prototypu](img/PeeWeeLight.jpg)
+
 ## O projektu
 Systém je navržen s ohledem na:
 - **Mechanickou robustnost**.
@@ -29,6 +31,9 @@ Fyzické řazení diod v sérii je: **F - R - B - B - B - B - B - L - F**
 - **Zjednodušené schéma elektrického zapojení:** [schema.svg](schema.svg) (nebo [schema.pdf](schema.pdf))
 - **Videonávod ke stavbě:** Vzhledem k aktualizacím je k dispozici na stálém přesměrování [https://go.pslib.cz/buildpeewee](https://go.pslib.cz/buildpeewee)
 
+## Metodia a další materiály v českém jazyce
+- https://go.pslib.cz/peeweedata
+
 ## Software / Programování
 Ovládací knihovna (rozšíření) pro prostředí MakeCode je k dispozici v repozitáři: 
 [https://github.com/microbit-cz/pxt-peewee-light](https://github.com/microbit-cz/pxt-peewee-light)
@@ -39,12 +44,9 @@ Data pro 3D tisk: [PeeWeeLight.3mf](model/PeeWeeLight.3mf)
 Referenční sestava: [PeeWeeLightAssembly.stl](model/PeeWeeLightAssembly.stl) 
 
 ## Obrázky
-
 ![Pohled zepředu](img/PeeWeeLightFront.jpg)
 
 ![Pohled zezadu](img/PeeWeeLightBack.jpg)
-
-![Foto prototypu](img/PeeWeeLight.jpg)
 
 ## Seznam dílů
 
